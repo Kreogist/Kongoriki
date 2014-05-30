@@ -11,5 +11,7 @@ SOURCES += \
 
 HEADERS += \
     mainwindow.h \
-    bass/knlibbass.h
+    bass/knlibbass.h \
+    bass/bass.h \
+    bass/bass_ape.h
 

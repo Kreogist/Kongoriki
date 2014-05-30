@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 
+class QSlider;
+class KNLibBass;
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -12,7 +14,11 @@ public:
 signals:
 
 public slots:
+    void onAction();
 
+private:
+    KNLibBass *bassme;
+    QSlider *position;
 };
 
 #endif // MAINWINDOW_H
