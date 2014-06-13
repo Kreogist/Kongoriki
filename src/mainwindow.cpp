@@ -4,6 +4,8 @@
 #include <QToolButton>
 #include <QSlider>
 
+#include <QDebug>
+
 #include "bass/knlibbass.h"
 
 MainWindow::MainWindow(QWidget *parent) :
@@ -43,7 +45,9 @@ MainWindow::MainWindow(QWidget *parent) :
 
 void MainWindow::onAction()
 {
-    bassme->loadMusic(QFileDialog::getOpenFileName());
+    QString strData=QFileDialog::getOpenFileName();
+    qDebug()<<strData;
+    bassme->loadMusic(strData);
     position->setRange(0, bassme->duration());
     bassme->play();
 }
