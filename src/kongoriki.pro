@@ -12,4 +12,3 @@ SOURCES += \
 HEADERS += \
     mainwindow.h \
     bass/knlibbass.h
-
