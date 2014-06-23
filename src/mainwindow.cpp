@@ -42,9 +42,9 @@ MainWindow::MainWindow(QWidget *parent) :
         bassme->setPosition(position->value());
     });
 //    bassme->loadUrl("http://www.radioparadise.com/musiclinks/rp_128-9.m3u");
-    bassme->loadUrl("http://www.xiyufeng.com/bbs/attachment/Type_mp3/16_528_8ae58405ccff512.mp3");
+//    bassme->loadUrl("http://www.xiyufeng.com/bbs/attachment/Type_mp3/16_528_8ae58405ccff512.mp3");
 //    bassme->loadUrl("D:/Hans Zimmer - End Credits.mp3");
-//    bassme->loadUrl("http://sc.111ttt.com/up/mp3/203516/28BD59C0A62C957D65FECC067D3D2C6A.mp3");
+    bassme->loadUrl("http://sc.111ttt.com/up/mp3/203516/28BD59C0A62C957D65FECC067D3D2C6A.mp3");
 }
 
 void MainWindow::onAction()
